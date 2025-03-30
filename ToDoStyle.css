@@ -1,0 +1,49 @@
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 40px;
+            background-color: #f5f5dc;
+        }
+        #taskInput {
+            padding: 8px;
+            width: 250px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 8px 12px;
+            margin-left: 5px;
+            background-color: #5a5a59;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #a583a3;
+            color: #fafafa;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            max-width: 300px;
+            margin: 20px auto;
+        }
+        li {
+            background: #fddcfa;
+            margin: 5px 0;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 4px;
+        }
+        .remove-btn {
+            background: #f587d0;
+            color: rgb(8, 8, 8);
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+        }
+        .remove-btn:hover {
+            background: #fa68c9;
+            color: #d3e6e9;
+        }
